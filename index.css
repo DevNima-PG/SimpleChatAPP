@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #2d2d2d;
+}
+
+.chatbox {
+    border: 3px solid #00ce79;
+    padding: 10px;
+    margin: auto auto;
+    height: 500px;
+    width: 500px;
+}
+
+p {
+    border: 1px solid cyan;
+    padding: 3px;
+}
+
+#text {
+    width: 400px;
+    height: 33px;
+    padding: 5px;
+    margin: 3px;
+}
+
+#sendBtn {
+    width: 100px;
+    border-radius: .3em;
+    border-color: #00ce79;
+    height: 45px;
+    padding: 5px;
+}
