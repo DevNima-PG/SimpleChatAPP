@@ -12,7 +12,9 @@ const io = SocketIo(server, {
 })
 
 io.on("connection", (socket) => {
-    socket.on("client-message", data => console.log(data))
+    socket.on("client-message", data => {
+        io.emit("server-message", data)
+    })
 })
 
 server.listen(3000, () => console.log("Running on port >> 3000"))
